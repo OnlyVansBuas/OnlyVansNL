@@ -1,25 +1,48 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Changing the main font and background colour */
+:root {
+    --blue: #3B8EA5;
+    --yellow: #F5EE9E;
+    --background-color: #fff4cd;
+    --orange: #F49E4C;
+    --red: #AB3428;
+	--black: black; 
+    --white: white; 
+}
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: "Advent Pro", sans-serif;
+	background-color: var(--background-color);
+	
+	
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	font-weight: bold;
+	
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: var(--black);
+	font-weight: bold;
+
 }
+
+.navbar-nav .nav-link {
+    color: white !important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9100 !important;
+}
+
 
 /* Effect on social media buttons */
 
@@ -31,6 +54,9 @@ footer a:hover {
 
 #navbar-corporate a.active {
 	color: #800000;
+	font-weight: bold;
+}
+#navbar-corporate  {
 	font-weight: bold;
 }
 
