@@ -24,13 +24,12 @@ body {
 
 header {
 	font-weight: bold;
-	
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: var(--blue);
+	background-color: var(--black);
 	font-weight: bold;
 
 }
@@ -67,4 +66,9 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 100px;
 }
