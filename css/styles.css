@@ -30,7 +30,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: var(--black);
+	background-color: var(--blue);
 	font-weight: bold;
 
 }
