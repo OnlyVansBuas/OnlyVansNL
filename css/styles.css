@@ -1,12 +1,14 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Changing the main font and background colour */
 :root {
     --blue: #3B8EA5;
     --yellow: #F5EE9E;
     --background-color: #fff4cd;
+	--fundoimagem:#feeec2;
     --orange: #F49E4C;
     --red: #AB3428;
 	--black: black; 
@@ -15,9 +17,7 @@
 
 body {
 	font-family: "Advent Pro", sans-serif;
-	background-color: var(--background-color);
-	
-	
+	background-color: var(--fundoimagem);
 }
 
 /* Changing the background colour for the header */
@@ -29,7 +29,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: var(--black);
+	background-color: var(--blue);
 	font-weight: bold;
 
 }
@@ -47,6 +47,11 @@ header {
 
 footer a:hover {
 	opacity: .5;
+}
+footer{
+	/* height: 10%;
+	background-color: var(--blue);
+	margin-top: 50px; */
 }
 
 /* Corporate navbar */
@@ -70,5 +75,11 @@ footer a:hover {
 
 h1{
 	font-weight: bold;
-	font-size: 100px;
+	color:var(--orange);
+	font-size: 80px;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.private {
+	display:none ;
 }
