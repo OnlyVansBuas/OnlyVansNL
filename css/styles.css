@@ -18,6 +18,7 @@
 body {
 	font-family: "Advent Pro", sans-serif;
 	background-color: var(--fundoimagem);
+	overflow-x: hidden;
 }
 
 /* Changing the background colour for the header */
@@ -82,4 +83,17 @@ h1{
 
 .private {
 	display:none ;
+}
+
+.moving-image {
+	position: absolute;
+	width: 400px;
+	height: auto;
+	animation: moveAcross 5s linear infinite;}
+
+@keyframes moveAcross {
+	0% { left: 0; opacity: 0; }   
+	1% { opacity: 1; }               
+	90% { left: 99%; opacity: 1; }  
+	100% { left: 100%; opacity: 0; }  
 }
