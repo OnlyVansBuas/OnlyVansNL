@@ -17,6 +17,10 @@ html{
 	--black: black; 
     --white: #fff; 
 }
+main{
+	padding-bottom: 40px;
+	text-align: center;
+}
 
 body {
 	font-family: "Advent Pro", sans-serif;
@@ -34,7 +38,7 @@ header {
 
 .navbar {
 	background-color: var(--blue);
-	font-weight: bold;
+	font-weight:bold;
 
 }
 
@@ -52,11 +56,7 @@ header {
 footer a:hover {
 	opacity: .5;
 }
-footer{
-	/* height: 10%;
-	background-color: var(--blue);
-	margin-top: 50px; */
-}
+
 
 /* Corporate navbar */
 
@@ -80,7 +80,7 @@ footer{
 h1{
 	font-weight: bold;
 	color:var(--orange);
-	font-size: 80px;
+	font-size: 200%;
 	font-family: "Bebas Neue", sans-serif;
 }
 
@@ -88,18 +88,156 @@ h1{
 	display:none ;
 }
 
-.moving-image {
-    position: absolute;
-    width: 400px;
-    height: auto;
-    animation: moveAcross 5s linear infinite;
-    left: 0;
-    transform: translateX(-100%);
+.split2 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap; 
+	margin: 0 auto;
+	max-width: 1200px;
+
+  }
+
+  .split2 > div {
+	flex: 1 1 45%;
+	min-width: 280px;
+	max-width: 500px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+  }
+  .rebellion {
+	  background-color: var(--blue); 
+	  color: var(--yellow); 
+  }
+  .nostalgia { 
+	  background-color: var(--yellow); 
+	  color: var(--blue); 
+  }
+  .expression { 
+	  background-color: var(--orange); 
+	  color: var(--red); 
+  }
+  .autonomy { 
+	  background-color: var(--red); 
+	  color: var(--orange); 
+  }
+
+
+  h3{
+	font-size: 250%;
+ }
+
+  .custom-footer {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 20px 0;
 }
 
-@keyframes moveAcross {
-    0% { transform: translateX(-100%); opacity: 0; }   
-    10% { opacity: 1; }               
-    90% { transform: translateX(100vw); opacity: 1; }  
-    100% { transform: translateX(110vw); opacity: 0; }  
+.custom-footer p {
+    margin: 0;
+    font-size: 14px;
 }
+
+.custom-footer a {
+    text-decoration: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.custom-footer a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.custom-footer .social-icon {
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.custom-footer .social-icon:hover {
+    filter: brightness(1.2) sepia(1) saturate(5) hue-rotate(10deg);
+}
+
+
+@media (max-width: 767px) {
+    .custom-footer .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.story-section {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px 20px;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .story-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+  }
+  
+  .story-row:nth-of-type(2) {
+	flex-direction: row-reverse;
+  }
+  
+  .story-row .icon {
+	flex: 1 1 300px;
+	max-width: 400px;
+	height: auto;
+  }
+  
+  .story-row .text {
+	flex: 1 1 300px;
+	max-width: 600px;
+	text-align: center;
+  }
+  
+  .story-row h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+  }
+  
+  .story-row p {
+	margin: 0;
+	line-height: 1.6;
+	font-size: 130%;
+  }
+  
+  .arrow {
+	display: block;
+	margin: 0 auto;
+	width: 80px;
+  }
+  
+  @media (max-width: 768px) {
+	.story-row {
+	  flex-direction: column;
+	  text-align: center;
+	}
+  
+	.story-row:nth-of-type(2) {
+	  flex-direction: column;
+	}
+  
+	.story-row .text {
+	  max-width: 100%;
+	  text-align: center;
+	}
+  
+	.story-row .icon {
+	  max-width: 100%;
+	}
+  }
+  
