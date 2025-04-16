@@ -14,8 +14,8 @@ html{
 	--fundoimagem:#feeec2;
     --orange: #F49E4C;
     --red: #AB3428;
-	--black: black; 
-    --white: #fff; 
+	--black: black;
+    --white: #fff;
 }
 main{
 	padding-bottom: 40px;
@@ -45,7 +45,7 @@ header {
 }
 
 .navbar-nav .nav-link {
-    color: white !important; 
+    color: white !important;
 }
 
 .navbar-nav .nav-link:hover {
@@ -106,7 +106,7 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
 	margin: 0 auto;
 	max-width: 1200px;
 
@@ -121,20 +121,20 @@ h2{
 	text-align: center;
   }
   .rebellion {
-	  background-color: var(--blue); 
-	  color: var(--yellow); 
+	  background-color: var(--blue);
+	  color: var(--yellow);
   }
-  .nostalgia { 
-	  background-color: var(--yellow); 
-	  color: var(--blue); 
+  .nostalgia {
+	  background-color: var(--yellow);
+	  color: var(--blue);
   }
-  .expression { 
-	  background-color: var(--orange); 
-	  color: var(--red); 
+  .expression {
+	  background-color: var(--orange);
+	  color: var(--red);
   }
-  .autonomy { 
-	  background-color: var(--red); 
-	  color: var(--orange); 
+  .autonomy {
+	  background-color: var(--red);
+	  color: var(--orange);
   }
 
 
@@ -199,66 +199,66 @@ h2{
 	display: flex;
 	flex-direction: column;
   }
-  
+
   .story-row {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
   }
-  
+
   .story-row:nth-of-type(2) {
 	flex-direction: row-reverse;
   }
-  
+
   .story-row .icon {
 	flex: 1 1 300px;
 	max-width: 400px;
 	height: auto;
   }
-  
+
   .story-row .text {
 	flex: 1 1 300px;
 	max-width: 600px;
 	text-align: center;
   }
-  
+
   .story-row h3 {
 	text-transform: uppercase;
 	font-weight: bold;
   }
-  
+
   .story-row p {
 	margin: 0;
 	line-height: 1.6;
 	font-size: 130%;
   }
-  
+
   .arrow {
 	display: block;
 	margin: 0 auto;
 	width: 80px;
   }
-  
+
   @media (max-width: 768px) {
 	.story-row {
 	  flex-direction: column;
 	  text-align: center;
 	}
-  
+
 	.story-row:nth-of-type(2) {
 	  flex-direction: column;
 	}
-  
+
 	.story-row .text {
 	  max-width: 100%;
 	  text-align: center;
 	}
-  
+
 	.story-row .icon {
 	  max-width: 100%;
 	}
   }
-  
+
 
 
   .who-we-are-container {
@@ -267,16 +267,16 @@ h2{
 	text-align: center;
 	max-width: 1200px;
   }
-  
+
   .who-we-are-logo {
 	width: 20%;
 	margin-bottom: 20px;
   }
-  
+
   .who-we-are-title {
 	font-size: 3rem;
   }
-  
+
   .member-cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -284,7 +284,7 @@ h2{
 	margin-top: 2rem;
 	overflow: hidden;
   }
-  
+
   .member-card {
 	flex: 1 1 calc(25% - 1rem);
 	height: 500px;
@@ -297,11 +297,11 @@ h2{
 	box-sizing: border-box;
 	transition: transform 0.3s ease;
   }
-  
+
   .member-card:hover {
 	transform: translateY(-5px);
   }
-  
+
   .member-name {
 	font-family: 'Bebas Neue', sans-serif;
 	margin-top: 30px;
@@ -309,7 +309,7 @@ h2{
 	position: relative;
 	font-size: 1.5rem;
   }
-  
+
   .member-image {
 	position: absolute;
 	height: 380px;
@@ -318,63 +318,182 @@ h2{
 	transform: translateX(-50%);
 	z-index: 1;
   }
-  
+
   .bg-blue    { background-color: var(--blue); }
   .bg-yellow  { background-color: var(--yellow); }
   .bg-orange  { background-color: var(--orange); }
   .bg-red     { background-color: var(--red); }
-  
+
   .text-blue    { color: var(--blue); }
   .text-orange  { color: var(--orange); }
   .text-red     { color: var(--red); }
-  
+
   /* MEDIA QUERIES */
   @media (max-width: 1024px) {
 	.member-card {
 	  flex: 1 1 calc(50% - 1rem);
 	  height: 450px;
 	}
-  
+
 	.who-we-are-title {
 	  font-size: 2.5rem;
 	}
-  
+
 	.who-we-are-logo {
 	  width: 25%;
 	}
   }
-  
+
   @media (max-width: 768px) {
 	.member-card {
 	  flex: 1 1 100%;
 	  height: 300px;
 	}
-  
+
 	.who-we-are-title {
 	  font-size: 2rem;
 	}
-  
+
 	.who-we-are-logo {
 	  width: 35%;
 	}
-  
+
 	.member-image {
 	  height: 200px;
 	}
   }
-  
+
   @media (max-width: 480px) {
 	.member-card {
 	  height: 350px;
 	  padding: 15px;
 	}
-  
+
 	.member-name {
 	  font-size: 1.25rem;
 	}
-  
+
 	.member-image {
 	  height: 250px;
 	}
   }
+
+
+
+
+
+  .packages-section {
+	padding: 0 10%;
+	margin-bottom: 80px;
+  }
+
+  .packages-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+	max-width: 800px; 
+	margin: 0 auto;
+  }
+
+  .package-card {
+	position: relative;
+	overflow: hidden;
+	border-radius: 2px; 
+	aspect-ratio: 1/1; 
+  }
+
+  .package-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; 
+	display: block;
+	transition: transform 0.3s ease;
+  }
+
+  .package-card:hover img {
+	transform: scale(1.05); 
+  }
+
+  .package-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	width: 90%; 
+	text-align: center;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 1.8rem; 
+	color: var(--yellow);
+	padding: 15px;
+  }
+
+
+  @media (max-width: 768px) {
+	.packages-grid {
+	  grid-template-columns: 1fr;
+	  max-width: 400px;
+	  gap: 20px;
+	}
+
+	.packages-section {
+	  padding: 0 5%;
+	}
+
+	.package-overlay {
+	  font-size: 1.5rem;
+	}
+  }
+
+
+
+  .contact-form input,
+.contact-form textarea {
+  border: none;
+  border-bottom: 2px solid var(--blue);
+  background: transparent;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 8px 4px;
+  outline: none;
+  width: 100%;
+}
+
+.contact-form button {
+  width: 20%;
+  min-width: 100px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.contact-form button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contact-text {
+  text-align: left !important;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
   
+  .contact-text {
+    padding-right: 0 !important;
+    margin-top: 20px;
+  }
+  
+  .contact-form button {
+    width: 30%;
+  }
+}
