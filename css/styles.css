@@ -19,6 +19,7 @@ html{
 }
 main{
 	padding-bottom: 40px;
+	padding-top: 40px;
 	text-align: center;
 }
 
@@ -39,6 +40,7 @@ header {
 .navbar {
 	background-color: var(--blue);
 	font-weight:bold;
+	min-height: 60px;
 
 }
 
@@ -48,6 +50,12 @@ header {
 
 .navbar-nav .nav-link:hover {
     color: #ff9100 !important;
+}
+.nav-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 5px;
 }
 
 
@@ -80,6 +88,12 @@ footer a:hover {
 h1{
 	font-weight: bold;
 	color:var(--orange);
+	font-size: 200%;
+	font-family: "Bebas Neue", sans-serif;
+}
+h2{
+	font-weight: bold;
+	color:var(--blue);
 	font-size: 200%;
 	font-family: "Bebas Neue", sans-serif;
 }
@@ -160,6 +174,10 @@ h1{
 
 
 @media (max-width: 767px) {
+	.split2{
+		margin: 0px 10%;
+
+	}
     .custom-footer .container {
         flex-direction: column;
         gap: 10px;
@@ -238,6 +256,125 @@ h1{
   
 	.story-row .icon {
 	  max-width: 100%;
+	}
+  }
+  
+
+
+  .who-we-are-container {
+	margin: 5% auto;
+	padding: 0 5%;
+	text-align: center;
+	max-width: 1200px;
+  }
+  
+  .who-we-are-logo {
+	width: 20%;
+	margin-bottom: 20px;
+  }
+  
+  .who-we-are-title {
+	font-size: 3rem;
+  }
+  
+  .member-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 2rem;
+	overflow: hidden;
+  }
+  
+  .member-card {
+	flex: 1 1 calc(25% - 1rem);
+	height: 500px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: center;
+	justify-content: flex-start;
+	box-sizing: border-box;
+	transition: transform 0.3s ease;
+  }
+  
+  .member-card:hover {
+	transform: translateY(-5px);
+  }
+  
+  .member-name {
+	font-family: 'Bebas Neue', sans-serif;
+	margin-top: 30px;
+	z-index: 2;
+	position: relative;
+	font-size: 1.5rem;
+  }
+  
+  .member-image {
+	position: absolute;
+	height: 380px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+  }
+  
+  .bg-blue    { background-color: var(--blue); }
+  .bg-yellow  { background-color: var(--yellow); }
+  .bg-orange  { background-color: var(--orange); }
+  .bg-red     { background-color: var(--red); }
+  
+  .text-blue    { color: var(--blue); }
+  .text-orange  { color: var(--orange); }
+  .text-red     { color: var(--red); }
+  
+  /* MEDIA QUERIES */
+  @media (max-width: 1024px) {
+	.member-card {
+	  flex: 1 1 calc(50% - 1rem);
+	  height: 450px;
+	}
+  
+	.who-we-are-title {
+	  font-size: 2.5rem;
+	}
+  
+	.who-we-are-logo {
+	  width: 25%;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.member-card {
+	  flex: 1 1 100%;
+	  height: 300px;
+	}
+  
+	.who-we-are-title {
+	  font-size: 2rem;
+	}
+  
+	.who-we-are-logo {
+	  width: 35%;
+	}
+  
+	.member-image {
+	  height: 200px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.member-card {
+	  height: 350px;
+	  padding: 15px;
+	}
+  
+	.member-name {
+	  font-size: 1.25rem;
+	}
+  
+	.member-image {
+	  height: 250px;
 	}
   }
   
