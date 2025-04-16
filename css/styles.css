@@ -497,3 +497,102 @@ h2{
     width: 30%;
   }
 }
+
+.carousel-section {
+	margin: 40px 0;
+  }
+  
+  .carousel {
+	max-width: 1200px;
+	margin: 0 auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	border-radius: 8px;
+	overflow: hidden;
+  }
+  
+  .carousel-inner {
+	border-radius: 8px;
+  }
+  
+  .carousel-item img {
+	height: 500px;
+	object-fit: cover;
+	object-position: center;
+  }
+  
+  .carousel-caption {
+	padding: 20px;
+	border-radius: 8px;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+  }
+  
+  .carousel-caption h3 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2.5rem;
+	color: var(--yellow);
+	margin: 0;
+  }
+  
+  .carousel-indicators {
+	bottom: 20px;
+  }
+  
+  .carousel-indicators button {
+	width: 40px;
+	height: 5px;
+	border: none;
+	background-color: rgba(255,255,255,0.5);
+	margin: 0 5px;
+  }
+  
+  .carousel-indicators .active {
+	background-color: var(--orange);
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+	width: 8%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+	width: 3rem;
+	height: 3rem;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 50%;
+	background-size: 60%;
+  }
+  
+  .carousel-control-prev:hover .carousel-control-prev-icon,
+  .carousel-control-next:hover .carousel-control-next-icon {
+	background-color: var(--blue);
+  }
+  
+  @media (max-width: 768px) {
+	/* .carousel-section{
+		margin: 10%;
+	} */
+
+	.carousel-item img {
+	  height: 350px;
+	}
+	
+	.carousel-caption {
+	  bottom: 20px;
+	  width: 90%;
+	  padding: 10px;
+	}
+	
+	.carousel-caption h3 {
+	  font-size: 1.8rem;
+	  padding-bottom: 10%;
+	}
+	
+	.carousel-indicators button {
+	  width: 30px;
+	  height: 4px;
+	}
+  }
