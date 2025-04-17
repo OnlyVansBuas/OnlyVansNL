@@ -3,21 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-html{
+html {
 	overflow: hidden;
 }
+
 /* Changing the main font and background colour */
 :root {
-    --blue: #3B8EA5;
-    --yellow: #F5EE9E;
-    --background-color: #fff4cd;
-	--fundoimagem:#feeec2;
-    --orange: #F49E4C;
-    --red: #AB3428;
+	--blue: #3B8EA5;
+	--yellow: #F5EE9E;
+	--background-color: #fff4cd;
+	--fundoimagem: #feeec2;
+	--orange: #F49E4C;
+	--red: #AB3428;
 	--black: black;
-    --white: #fff;
+	--white: #fff;
 }
-main{
+
+main {
 	padding-bottom: 40px;
 	padding-top: 40px;
 	text-align: center;
@@ -29,29 +31,27 @@ body {
 	overflow-x: hidden;
 }
 
-/* Changing the background colour for the header */
 
 header {
 	font-weight: bold;
 }
 
-/* Changing the background color for the navigation bar */
-
 .navbar {
 	background-color: var(--blue);
-	font-weight:bold;
+	font-weight: bold;
 	min-height: 60px;
 
 }
 
 .navbar-nav .nav-link {
-    color: white !important;
+	color: white !important;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ff9100 !important;
+	color: #ff9100 !important;
 }
-.nav-item{
+
+.nav-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -59,24 +59,19 @@ header {
 }
 
 
-/* Effect on social media buttons */
-
 footer a:hover {
 	opacity: .5;
 }
 
 
-/* Corporate navbar */
-
 #navbar-corporate a.active {
-	color: #800000;
-	font-weight: bold;
-}
-#navbar-corporate  {
 	font-weight: bold;
 }
 
-/* Hero Section shadow */
+#navbar-corporate {
+	font-weight: bold;
+}
+
 
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
@@ -85,21 +80,22 @@ footer a:hover {
 		0 0 .5em white;
 }
 
-h1{
+h1 {
 	font-weight: bold;
-	color:var(--orange);
+	color: var(--orange);
 	font-size: 200%;
 	font-family: "Bebas Neue", sans-serif;
 }
-h2{
+
+h2 {
 	font-weight: bold;
-	color:var(--blue);
+	color: var(--blue);
 	font-size: 200%;
 	font-family: "Bebas Neue", sans-serif;
 }
 
 .private {
-	display:none ;
+	display: none;
 }
 
 .split2 {
@@ -110,78 +106,83 @@ h2{
 	margin: 0 auto;
 	max-width: 1200px;
 
-  }
+}
 
-  .split2 > div {
+.split2>div {
 	flex: 1 1 45%;
 	min-width: 280px;
 	max-width: 500px;
 	padding: 20px;
 	box-sizing: border-box;
 	text-align: center;
-  }
-  .rebellion {
-	  background-color: var(--blue);
-	  color: var(--yellow);
-  }
-  .nostalgia {
-	  background-color: var(--yellow);
-	  color: var(--blue);
-  }
-  .expression {
-	  background-color: var(--orange);
-	  color: var(--red);
-  }
-  .autonomy {
-	  background-color: var(--red);
-	  color: var(--orange);
-  }
+}
+
+.rebellion {
+	background-color: var(--blue);
+	color: var(--yellow);
+}
+
+.nostalgia {
+	background-color: var(--yellow);
+	color: var(--blue);
+}
+
+.expression {
+	background-color: var(--orange);
+	color: var(--red);
+}
+
+.autonomy {
+	background-color: var(--red);
+	color: var(--orange);
+}
 
 
-  h3{
+h3 {
 	font-size: 250%;
- }
+}
 
-  .custom-footer {
-    background-color: var(--blue);
-    color: var(--white);
-    padding: 20px 0;
+.custom-footer {
+	background-color: var(--blue);
+	color: var(--white);
+	padding: 20px 0;
 }
 
 .custom-footer p {
-    margin: 0;
-    font-size: 14px;
+	margin: 0;
+	font-size: 14px;
 }
 
 .custom-footer a {
-    text-decoration: none;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+	text-decoration: none;
+	transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .custom-footer a:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+	transform: scale(1.1);
+	opacity: 0.8;
 }
 
 .custom-footer .social-icon {
-    filter: brightness(0) invert(1);
-    transition: filter 0.3s ease;
+	filter: brightness(0) invert(1);
+	transition: filter 0.3s ease;
 }
 
 .custom-footer .social-icon:hover {
-    filter: brightness(1.2) sepia(1) saturate(5) hue-rotate(10deg);
+	filter: brightness(1.2) sepia(1) saturate(5) hue-rotate(10deg);
 }
 
 
 @media (max-width: 767px) {
-	.split2{
+	.split2 {
 		margin: 0px 10%;
 
 	}
-    .custom-footer .container {
-        flex-direction: column;
-        gap: 10px;
-    }
+
+	.custom-footer .container {
+		flex-direction: column;
+		gap: 10px;
+	}
 }
 
 
@@ -198,94 +199,94 @@ h2{
 	padding: 50px 20px;
 	display: flex;
 	flex-direction: column;
-  }
+}
 
-  .story-row {
+.story-row {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-  }
+}
 
-  .story-row:nth-of-type(2) {
+.story-row:nth-of-type(2) {
 	flex-direction: row-reverse;
-  }
+}
 
-  .story-row .icon {
+.story-row .icon {
 	flex: 1 1 300px;
-	max-width: 400px;
+	max-width: 300px;
 	height: auto;
-  }
+}
 
-  .story-row .text {
+.story-row .text {
 	flex: 1 1 300px;
 	max-width: 600px;
 	text-align: center;
-  }
+}
 
-  .story-row h3 {
+.story-row h3 {
 	text-transform: uppercase;
 	font-weight: bold;
-  }
+}
 
-  .story-row p {
+.story-row p {
 	margin: 0;
 	line-height: 1.6;
 	font-size: 130%;
-  }
+}
 
-  .arrow {
+.arrow {
 	display: block;
 	margin: 0 auto;
 	width: 80px;
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
 	.story-row {
-	  flex-direction: column;
-	  text-align: center;
+		flex-direction: column;
+		text-align: center;
 	}
 
 	.story-row:nth-of-type(2) {
-	  flex-direction: column;
+		flex-direction: column;
 	}
 
 	.story-row .text {
-	  max-width: 100%;
-	  text-align: center;
+		max-width: 100%;
+		text-align: center;
 	}
 
 	.story-row .icon {
-	  max-width: 100%;
+		max-width: 100%;
 	}
-  }
+}
 
 
 
-  .who-we-are-container {
+.who-we-are-container {
 	margin: 5% auto;
 	padding: 0 5%;
 	text-align: center;
 	max-width: 1200px;
-  }
+}
 
-  .who-we-are-logo {
+.who-we-are-logo {
 	width: 20%;
 	margin-bottom: 20px;
-  }
+}
 
-  .who-we-are-title {
+.who-we-are-title {
 	font-size: 3rem;
-  }
+}
 
-  .member-cards {
+.member-cards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 2rem;
 	overflow: hidden;
-  }
+}
 
-  .member-card {
+.member-card {
 	flex: 1 1 calc(25% - 1rem);
 	height: 500px;
 	position: relative;
@@ -296,303 +297,439 @@ h2{
 	justify-content: flex-start;
 	box-sizing: border-box;
 	transition: transform 0.3s ease;
-  }
+}
 
-  .member-card:hover {
+.member-card:hover {
 	transform: translateY(-5px);
-  }
+}
 
-  .member-name {
+.member-name {
 	font-family: 'Bebas Neue', sans-serif;
 	margin-top: 30px;
 	z-index: 2;
 	position: relative;
 	font-size: 1.5rem;
-  }
+}
 
-  .member-image {
+.member-image {
 	position: absolute;
 	height: 380px;
 	bottom: 0;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 1;
-  }
+}
 
-  .bg-blue    { background-color: var(--blue); }
-  .bg-yellow  { background-color: var(--yellow); }
-  .bg-orange  { background-color: var(--orange); }
-  .bg-red     { background-color: var(--red); }
+.bg-blue {
+	background-color: var(--blue);
+}
 
-  .text-blue    { color: var(--blue); }
-  .text-orange  { color: var(--orange); }
-  .text-red     { color: var(--red); }
+.bg-yellow {
+	background-color: var(--yellow);
+}
 
-  /* MEDIA QUERIES */
-  @media (max-width: 1024px) {
-	.member-card {
-	  flex: 1 1 calc(50% - 1rem);
-	  height: 450px;
-	}
+.bg-orange {
+	background-color: var(--orange);
+}
 
-	.who-we-are-title {
-	  font-size: 2.5rem;
-	}
+.bg-red {
+	background-color: var(--red);
+}
 
-	.who-we-are-logo {
-	  width: 25%;
-	}
-  }
+.text-blue {
+	color: var(--blue);
+}
 
-  @media (max-width: 768px) {
-	.member-card {
-	  flex: 1 1 100%;
-	  height: 300px;
-	}
+.text-orange {
+	color: var(--orange);
+}
 
-	.who-we-are-title {
-	  font-size: 2rem;
-	}
-
-	.who-we-are-logo {
-	  width: 35%;
-	}
-
-	.member-image {
-	  height: 200px;
-	}
-  }
-
-  @media (max-width: 480px) {
-	.member-card {
-	  height: 350px;
-	  padding: 15px;
-	}
-
-	.member-name {
-	  font-size: 1.25rem;
-	}
-
-	.member-image {
-	  height: 250px;
-	}
-  }
-
-
-
-
-
-  .packages-section {
-	padding: 0 10%;
-	margin-bottom: 80px;
-  }
-
-  .packages-grid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 30px;
-	max-width: 800px; 
-	margin: 0 auto;
-  }
-
-  .package-card {
-	position: relative;
-	overflow: hidden;
-	border-radius: 2px; 
-	aspect-ratio: 1/1; 
-  }
-
-  .package-card img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover; 
-	display: block;
-	transition: transform 0.3s ease;
-  }
-
-  .package-card:hover img {
-	transform: scale(1.05); 
-  }
-
-  .package-overlay {
-	position: absolute;
-	top: 50%;
-	left: 50%; 
-	transform: translate(-50%, -50%);
-	width: 90%; 
-	text-align: center;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 1.8rem; 
+.text-yellow {
 	color: var(--yellow);
-	padding: 15px;
-  }
-
-
-  @media (max-width: 768px) {
-	.packages-grid {
-	  grid-template-columns: 1fr;
-	  max-width: 400px;
-	  gap: 20px;
-	}
-
-	.packages-section {
-	  padding: 0 5%;
-	}
-
-	.package-overlay {
-	  font-size: 1.5rem;
-	}
-  }
-
-
-
-  .contact-form input,
-.contact-form textarea {
-  border: none;
-  border-bottom: 2px solid var(--blue);
-  background: transparent;
-  font-family: inherit;
-  font-size: 1rem;
-  padding: 8px 4px;
-  outline: none;
-  width: 100%;
 }
 
-.contact-form button {
-  width: 20%;
-  min-width: 100px;
-  background-color: var(--blue);
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-  align-self: flex-end;
-  margin-left: auto;
+.text-red {
+	color: var(--red);
 }
 
-.contact-form button:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-  background-color: #0056b3;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+	.member-card {
+		flex: 1 1 calc(50% - 1rem);
+		height: 450px;
+	}
 
-.contact-text {
-  text-align: left !important;
+	.who-we-are-title {
+		font-size: 2.5rem;
+	}
+
+	.who-we-are-logo {
+		width: 25%;
+	}
 }
 
 @media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column;
-  }
-  
-  .contact-text {
-    padding-right: 0 !important;
-    margin-top: 20px;
-  }
-  
-  .contact-form button {
-    width: 30%;
-  }
+	.member-card {
+		flex: 1 1 100%;
+		height: 300px;
+	}
+
+	.who-we-are-title {
+		font-size: 2rem;
+	}
+
+	.who-we-are-logo {
+		width: 35%;
+	}
+
+	.member-image {
+		height: 200px;
+	}
+}
+
+@media (max-width: 480px) {
+	.member-card {
+		height: 350px;
+		padding: 15px;
+	}
+
+	.member-name {
+		font-size: 1.25rem;
+	}
+
+	.member-image {
+		height: 250px;
+	}
+}
+
+
+
+
+
+.packages-section {
+	padding: 0 10%;
+	margin-bottom: 80px;
+}
+
+.packages-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.package-card {
+	position: relative;
+	overflow: hidden;
+	border-radius: 2px;
+	aspect-ratio: 1/1;
+}
+
+.package-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.3s ease;
+}
+
+.package-card:hover img {
+	transform: scale(1.05);
+}
+
+.package-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	text-align: center;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 1.8rem;
+	color: var(--yellow);
+	padding: 15px;
+}
+
+
+@media (max-width: 768px) {
+	.packages-grid {
+		grid-template-columns: 1fr;
+		max-width: 400px;
+		gap: 20px;
+	}
+
+	.packages-section {
+		padding: 0 5%;
+	}
+
+	.package-overlay {
+		font-size: 1.5rem;
+	}
+}
+
+
+
+.contact-form input,
+.contact-form textarea {
+	border: none;
+	border-bottom: 2px solid var(--blue);
+	background: transparent;
+	font-family: inherit;
+	font-size: 1rem;
+	padding: 8px 4px;
+	outline: none;
+	width: 100%;
+}
+
+.contact-form button {
+	width: 20%;
+	min-width: 100px;
+	background-color: var(--blue);
+	color: var(--yellow);
+	border: none;
+	padding: 12px 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	align-self: flex-end;
+	margin-left: auto;
+}
+
+.contact-form button:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	background-color: #0056b3;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-text {
+	text-align: left !important;
+	flex: 1 1 300px;
+	font-size: 150%;
+}
+
+@media (max-width: 768px) {
+	.contact-container {
+		flex-direction: column;
+	}
+
+	.contact-text {
+		padding-right: 0 !important;
+		margin-top: 20px;
+	}
+
+	.contact-form button {
+		width: 30%;
+	}
 }
 
 .carousel-section {
 	margin: 40px 0;
-  }
-  
-  .carousel {
+}
+
+.carousel {
 	max-width: 1200px;
 	margin: 0 auto;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 	border-radius: 8px;
 	overflow: hidden;
-  }
-  
-  .carousel-inner {
+}
+
+.carousel-inner {
 	border-radius: 8px;
-  }
-  
-  .carousel-item img {
+}
+
+.carousel-item img {
 	height: 500px;
 	object-fit: cover;
 	object-position: center;
-  }
-  
-  .carousel-caption {
+}
+
+.carousel-caption {
 	padding: 20px;
 	border-radius: 8px;
 	bottom: 40px;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 80%;
-  }
-  
-  .carousel-caption h3 {
+}
+
+.carousel-caption h3 {
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 2.5rem;
 	color: var(--yellow);
 	margin: 0;
-  }
-  
-  .carousel-indicators {
+}
+
+.carousel-indicators {
 	bottom: 20px;
-  }
-  
-  .carousel-indicators button {
+}
+
+.carousel-indicators button {
 	width: 40px;
 	height: 5px;
 	border: none;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 	margin: 0 5px;
-  }
-  
-  .carousel-indicators .active {
+}
+
+.carousel-indicators .active {
 	background-color: var(--orange);
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
+}
+
+.carousel-control-prev,
+.carousel-control-next {
 	width: 8%;
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
 	width: 3rem;
 	height: 3rem;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0, 0, 0, 0.3);
 	border-radius: 50%;
 	background-size: 60%;
-  }
-  
-  .carousel-control-prev:hover .carousel-control-prev-icon,
-  .carousel-control-next:hover .carousel-control-next-icon {
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
 	background-color: var(--blue);
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
 	/* .carousel-section{
 		margin: 10%;
 	} */
 
 	.carousel-item img {
-	  height: 350px;
+		height: 350px;
 	}
-	
+
 	.carousel-caption {
-	  bottom: 20px;
-	  width: 90%;
-	  padding: 10px;
+		bottom: 20px;
+		width: 90%;
+		padding: 10px;
 	}
-	
+
 	.carousel-caption h3 {
-	  font-size: 1.8rem;
-	  padding-bottom: 10%;
+		font-size: 1.8rem;
+		padding-bottom: 10%;
 	}
-	
+
 	.carousel-indicators button {
-	  width: 30px;
-	  height: 4px;
+		width: 30px;
+		height: 4px;
 	}
-  }
+}
+
+
+
+
+
+
+
+
+
+.banner {
+	background-image: url('images/upgrade-banner.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 80px 20px;
+	position: relative;
+}
+
+.banner h1 {
+	font-family: var(--font-title);
+	font-size: 3rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.banner-logo {
+	height: 40px;
+}
+
+.intro {
+	padding: 40px 20px;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.packages {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 30px;
+	padding: 40px 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.package {
+	background-color: white;
+	border-radius: 12px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.package img {
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+.package h3 {
+	font-family: var(--font-title);
+	color: var(--orange);
+	margin-bottom: 10px;
+}
+
+.cta {
+	text-align: center;
+	padding: 60px 20px;
+	background-color: var(--orange);
+	color: var(--blue);
+}
+
+.cta h2 {
+	font-family: var(--font-title);
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.cta-link {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: var(--blue);
+	border-bottom: 2px solid var(--blue);
+}
+
+.background-banner {
+	background-size: 100% 100%;
+	background-position: center top;
+	width: 100%;
+	height: 400px;
+	padding: 3rem;
+	align-content: center;
+}
+
+
+@media (min-width: 768px) {
+	.background-banner {
+		height: 60vh;
+		padding: 3rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.background-banner {
+		height: 80vh;
+	}
+}
