@@ -16,7 +16,6 @@
 </head>
 
 <body class="h-100 d-flex flex-column">
-
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
@@ -50,20 +49,19 @@
     </div>
   </nav>
   <!-- FAQ Section -->
-  <main class="flex-grow-1" id="faqSection">
-    <section class="container py-5">
-      <h1 style="color: var(--orange); font-family: 'Bebas Neue', sans-serif; font-size: 4rem;">
-        FAQ Yeah <img src="images/logo/logo-orange.png" alt="Van Logo" style="height: 2rem; vertical-align: middle;">
+  <main class="flex-grow-1 text-center mt-5" id="faqSection">
+    <header class="text-center">
+      <h1 class="text-blue">
+        FAQ Yeah <img src="images/logo/logo-blue.png" alt="Van Logo">
       </h1>
-      <p class="lead mb-4" style="font-size: 2rem;">
-        Got questions? We've got answers to fuel your van adventure!
-      </p>
+      <h4 class="text-blue">
+        <strong>Got questions? We've got answers to fuel your van adventure!</strong><br>
+        Here's what people usually want to know before they pimp their van.
+      </h4>
+    </header>
+    <section class="container py-5">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <p class="text-center mb-5" style="color: var(--blue); font-size: 1.2rem;">
-            Here's what people usually want to know before they pimp their van.
-          </p>
-
           <!-- General Questions -->
           <div class="faq-category">
             <h2 class="text-uppercase">General Questions</h2>
@@ -100,13 +98,6 @@
                   </div>
                 </div>
               </div>
-				
-			
-				
-
-				
-		
-             
             </div>
           </div>
 
@@ -187,37 +178,37 @@
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Contact Section -->
-      <div class="row mt-5 pt-5" id="contact">
-        <div class="col-12 text-center mb-4">
-          <h2 class="text-uppercase" style="color: var(--blue);font-size: 3rem;">Still have questions?</h2>
-          <p class="lead">Get in touch with our van experts</p>
+    <section class="text-center sendsection">
+      <img src="images/logo/logo-blue.png" />
+      <h1 class="text-blue">
+          Still have Questions?</h1>
+      <h6 class="text-blue">
+        <strong>Get in touch with our Van experts! </strong>
+      </h6>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="bg-yellow text-blue contact-section">
+      <h2 class="text-blue">CONTACT US</h2>
+      <div class="contact-container">
+        <form class="contact-form">
+          <input type="text" placeholder="NAME" required>
+          <input type="email" placeholder="EMAIL" required>
+          <input type="text" placeholder="SUBJECT">
+          <textarea placeholder="MESSAGE" rows="4" required></textarea>
+          <button type="submit">SEND</button>
+        </form>
+
+        <div class="contact-text">
+          <p>
+            Didn’t find what you were looking for?<br>
+            No stress, not all questions fit in a box. <br>Shoot us a message and one of our van-loving humans will
+            get back to you faster than you can say “road trip”.<br>
+            Whether you’re dreaming of a rooftop deck or just wondering about delivery times, we’ve got you.
+          </p>
         </div>
-        <!-- Forms -->
-        <section style="background-color: var(--yellow); padding: 60px 10%;color:var(--blue)">
-          <h2 style="color: var(--blue); ">CONTACT US</h2>
-          <div class="contact-container" style="display: flex; flex-wrap: wrap; gap: 40px; margin-top: 30px;">
-            <form class="contact-form" style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 15px;">
-              <input type="text" placeholder="NAME" required>
-              <input type="email" placeholder="EMAIL" required>
-              <input type="text" placeholder="SUBJECT">
-              <textarea placeholder="MESSAGE" rows="4" required></textarea>
-              <button type="submit">SEND</button>
-            </form>
-
-            <div class="contact-text">
-              <p>
-                Didn’t find what you were looking for?<br>
-                No stress, not all questions fit in a box. <br>Shoot us a message and one of our van-loving humans will
-                get back to you faster than you can say “road trip”.<br>
-                Whether you’re dreaming of a rooftop deck or just wondering about delivery times, we’ve got you.
-              </p>
-            </div>
-          </div>
-        </section>
-
-
       </div>
     </section>
   </main>
