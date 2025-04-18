@@ -56,14 +56,12 @@
     </div>
   </nav>
     <!-- End of navigation bar -->
-
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Corporate information</h1>
-    </header>
-
-    <main class="container-fluid container-xl">
+    <main class="container-fluid container-xl" style="text-align: justify; font-size: 1.4em;">
+      <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+        <h1 class="fw-light">Corporate information</h1>
+      </header>
       <div class="row">
-        <div class="col-sm-4 col-md-3 col-lg-2 py-4">
+        <div class="col-sm-4 col-md-3 col-lg-2 py-4" style="text-align: left;">
           <nav id="navbar-corporate" class="nav sticky-sm-top flex-row flex-sm-column lh-1 justify-content-sm-between">
             <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#general">General</a>
             <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#content">Content</a>
@@ -103,7 +101,7 @@
           <ol>
             <li>Benedek Soós (ID: 232881)</li>
             <li>Sandor Marton (ID: 230991)</li>
-			<li>Ivo Duarte (ID: 234371)</li>
+			      <li>Ivo Duarte (ID: 234371)</li>
           </ol>
           <!-- End General -->
 
@@ -379,4 +377,10 @@
     </main>
 
   </body>
+  <script>
+    const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+      target: '#navbar-corporate',
+      offset: 100
+    });
+  </script>
 </html>
