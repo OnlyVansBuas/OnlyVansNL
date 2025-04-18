@@ -29,10 +29,85 @@ body {
 
 header {
 	font-weight: bold;
+	padding: 60px 20px;
 }
-.index-bt{
-	background-color: var(--blue); font-weight: bold; padding: 15px 40px; color: var(--yellow); text-decoration: none; font-size: 1.2rem; display: inline-block;
+
+/*TEXT FORMATION*/
+h1 {
+	font-weight: bold;
+	font-size: 4rem;;
+	font-family: "Bebas Neue", sans-serif;
 }
+
+h1 img {
+	height: 2rem; 
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 200%;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+	margin-top: 10px; 
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+h4 {
+	margin-top: 10px; 
+	font-size: 1.2rem;
+}
+
+h6{
+	margin-top: 10px; 
+	font-size: 1.2rem;
+	margin-bottom: 60px;
+}
+/* TEXT AND BACKGROUND COLORS*/
+.bg-blue {	background-color: var(--blue);}
+.bg-yellow {	background-color: var(--yellow);}
+.bg-orange {	background-color: var(--orange);}
+.bg-red {	background-color: var(--red);}
+.text-blue {	color: var(--blue);}
+.text-orange {	color: var(--orange);}
+.text-yellow {	color: var(--yellow);}
+.text-red {	color: var(--red);}
+
+/*FOOTER*/
+.custom-footer {
+	background-color: var(--blue);
+	color: var(--white);
+	padding: 20px 0;
+}
+
+.custom-footer p {
+	margin: 0;
+	font-size: 14px;
+}
+
+.custom-footer a {
+	text-decoration: none;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.custom-footer a:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+.custom-footer .social-icon {
+	filter: brightness(0) invert(1);
+	transition: filter 0.3s ease;
+}
+
+.custom-footer .social-icon:hover {
+	filter: brightness(1.2) sepia(1) saturate(5) hue-rotate(10deg);
+}
+/* END FOOTER*/
+
+/* NAVIGATION BAR */
 .navbar {
 	background-color: var(--blue);
 	font-weight: bold;
@@ -74,41 +149,7 @@ footer a:hover {
 		0 0 .5em white;
 }
 
-/*TEXT FORMATION*/
-h1 {
-	font-weight: bold;
-	font-size: 4rem;;
-	font-family: "Bebas Neue", sans-serif;
-}
-
-h1 img {
-	height: 2rem; 
-}
-
-h2 {
-	font-weight: bold;
-	font-size: 200%;
-	font-family: "Bebas Neue", sans-serif;
-}
-
-h3 {
-	margin-top: 10px; 
-	font-size: 2.5rem;
-	text-transform: uppercase;
-}
-
-h4 {
-	margin-top: 10px; 
-	font-size: 1.2rem;
-}
-
-h6{
-	margin-top: 10px; 
-	font-size: 1.2rem;
-	margin-bottom: 60px;
-}
-
-/*END TEXT FORMATION*/
+/* END NAVIGATION BAR */
 
 .split2 {
 	display: flex;
@@ -129,41 +170,8 @@ h6{
 	text-align: center;
 }
 
-/*FOOTER*/
-.custom-footer {
-	background-color: var(--blue);
-	color: var(--white);
-	padding: 20px 0;
-}
-
-.custom-footer p {
-	margin: 0;
-	font-size: 14px;
-}
-
-.custom-footer a {
-	text-decoration: none;
-	transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.custom-footer a:hover {
-	transform: scale(1.1);
-	opacity: 0.8;
-}
-
-.custom-footer .social-icon {
-	filter: brightness(0) invert(1);
-	transition: filter 0.3s ease;
-}
-
-.custom-footer .social-icon:hover {
-	filter: brightness(1.2) sepia(1) saturate(5) hue-rotate(10deg);
-}
-/* END FOOTER*/
-
-
-header {
-	padding: 60px 20px;
+#index-bt{
+	background-color: var(--blue); font-weight: bold; padding: 15px 40px; color: var(--yellow); text-decoration: none; font-size: 1.2rem; display: inline-block;
 }
 
 .sendsection{
@@ -281,16 +289,6 @@ header {
 	z-index: 1;
 }
 /* END TEAM */
-
-/* TEXT AND BACKGROUND COLORS*/
-.bg-blue {	background-color: var(--blue);}
-.bg-yellow {	background-color: var(--yellow);}
-.bg-orange {	background-color: var(--orange);}
-.bg-red {	background-color: var(--red);}
-.text-blue {	color: var(--blue);}
-.text-orange {	color: var(--orange);}
-.text-yellow {	color: var(--yellow);}
-.text-red {	color: var(--red);}
 
 /* PACKAGES SECTION - PIMP YOUR VAN */
 
