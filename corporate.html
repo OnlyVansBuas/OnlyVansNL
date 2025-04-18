@@ -20,29 +20,41 @@
     <!-- End of Google Analytics code -->
     
   </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true">
+  <body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true" class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="corporate.html">Corporate</a>
-            </li>
-          </ul>
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="ourRoadStory.html">Our Road Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pimpYourVan.html">Pimp your van</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html">
+              <img src="images/logofundo.png" width="70" alt="OnlyVans Logo">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vanspiration.html">Vanspiration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ Yeah</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="corporate.html">Corporate</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
     <!-- End of navigation bar -->
 
     <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
@@ -82,15 +94,16 @@
           <h2 id="general">General Information</h2>
           <p>
             This branded website is publicly available at
-            <a href="https://buas-media-interactive.github.io/">buas-media-interactive.github.io/my-website</a>
+            <a href="https://onlyvansbuas.github.io/OnlyVansNL/index.html">buas-media-interactive.github.io/my-website</a>
             <em>(please change text <strong>and</strong> hyperlink destination)</em>
           </p>
           <p>
-            This website was created by&hellip; <em>(only students listed below will be graded!)</em>
+            This website was created by&hellip;
           </p>
           <ol>
-            <li>Student (ID: 000000)</li>
-            <li>Student (ID: 000000)</li>
+            <li>Benedek Soós (ID: 232881)</li>
+            <li>Sandor Marton (ID: 230991)</li>
+			<li>Ivo Duarte (ID: 234371)</li>
           </ol>
           <!-- End General -->
 
@@ -110,62 +123,100 @@
             <tbody>
               <tr>
                 <th scope="row">1.</th>
-                <td>000000</td>
-                <td>Value</td>
+                <td>234371 </td>
+                <td>Rebellion</td>
                 <td>
-                  <a href="index.html">Content title</a>
+                  <a href="ourRoadStory.html">Value-Rebellion</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">2.</th>
-                <td></td>
-                <td></td>
+                <td>234371</td>
+                <td>Nostalgia</td>
                 <td>
-                  <a href="#"></a>
+                  <a href="ourRoadStory.html">Value-Nostalgia</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">3.</th>
-                <td></td>
-                <td></td>
+                <td>232881</td>
+                <td>Expression</td>
                 <td>
-                  <a href="#"></a>
+                  <a href="ourRoadStory.html">Value-Expression</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">4.</th>
-                <td></td>
-                <td></td>
+                <td>230991</td>
+                <td>Autonomy</td>
                 <td>
-                  <a href="#"></a>
+                  <a href="ourRoadStory.html">Value-Autonomy</a>
                 </td>
               </tr>
             </tbody>
           </table>
-          
+			 <h4 id="content-2" class="mt-2">Vision Statement</h4>
+			 <p>In a world that’s constantly moving faster, we believe that the things we hold close should never be forgotten, they should grow with us, because only then can we create meaningful stories that define us and experiences that make us unique. </p>
+			
+			<h4 id="content-3" class="mt-2">Persona</h4>
+           <img src="images/persona.png" alt="Upgrade Packages" class="responsive-img">
+			
+			
+			<h4 id="content-4" class="mt-2"><strong>Disclaimer</strong></h4>
+			 <p>ONLYVANS is an independent brand focused on van culture lifestyle, with no connection to “OnlyFans”. Our name is a playful, transformative parody, legally protected under trademark law in the Netherlands and the EU. There is no risk of consumer confusion, as we offer completely different products and services. We are confident in our right to use the ONLYVANS name, aligning with intellectual property laws while keeping van life fun and creative.</p>
+			
           <!-- End Content, start Production -->
           
           <h2 id="production" class="mt-5">Production</h2>
-          <h4 id="production-1" class="mt-2">Design Elements</h4>
-          <p>Please provide a list of design elements alongside their justifications:</p>
+          <h4 id="production-1" class="mt-2"><strong>Design Elements</strong></h4>
+			<h4 id="production-2" class="mt-2">Color Palette</h4>
+			 <p>Our color palette captures the feeling of adventure, nostalgia, and authenticity our brand also carries. WIth a retro approach that connects to out target audience, it mixes warm, energetic tones with cool, calming colors, creating a balanced and inviting vbe. It feels both nostalgic and fresh, just like the freedom of van life full of creativity, fun, and a little bit of rebellion.</p>
           <ul>
             <li>
-              A colour scheme (with HTML colour codes, which must be consistent with your final website)
-              <em>&mdash; see the example below from the BUas brand book:</em>
+             
               <ul class="list-unstyled">
                 <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #EE7622;"></span>
-                  #EE7622
-                  <em>The orange colour refers to the Dutch identity and the city of Breda (Oranjestad). Orange stands for&hellip;</em>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #feeec2;"></span>
+                  <strong>#FEEEC2</strong>
+                  <p>We chose this color for the background because it reflects the warmth, nostalgia, and approachable spirit of ONLYVANS. It’s a soft, retro-inspired tone that creates a welcoming feel while supporting our brand’s personality.</p>
                 </li>
-                <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #00406B;"></span>
-                  #00406B
-                  <em>Dark blue signifies&hellip;</em>
+				  
+				<li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #3B8EA5;"></span>
+                  <strong>#3B8EA5</strong>
+                  <p>This blue adds balance to the palette. It feels clean and calm like fresh air or open roads. It brings a sense of clarity and trust, while still fitting into the retro, rebel vibe of the brand.</p>
                 </li>
+				  
+				  <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #F5EE9E;"></span>
+                  <strong>#F5EE9E</strong>
+                  <p>A soft, retro-inspired yellow that feels warm and familiar. It adds the nostalgic tone to the brand, referencing old photos, sunlight through the van's windows, and the golden moments that define life on the road. It creates a friendly, inviting atmosphere without being overwhelming.</p>
+                </li>
+				  
+				  <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #F49E4C;"></span>
+                  <strong>#F49E4C</strong>
+                  <p>The orange adds personality while still fitting the retro vibe. It captures the creative and rebellious attitude of ONLYVANS. It draws attention without feeling like an impostor, perfect for a brand that wants to stand out while still being approachable and fun.</p>
+                </li>
+				  
+				   <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #AB3428;"></span>
+                  <strong>#AB3428</strong>
+                  <p>The red introduces a sense of passion, character, and authenticity. Speaking to the craftsmanship, the DIY spirit, and the emotional connection that our target group have with their vans. It ties the entire palette together with warmth and depth.</p>
+                </li>
+              
               </ul>
             </li>
-            <li>Font choices</li>
+            <h4 id="production-3" class="mt-2">Font Choices</h4>
+			  <strong>Bebas Neue</strong>
+                  <p>This font is bold and strong making it perfect for titles. It captures attention right away with its timeless, all-caps design which fits the adventurous and retro spirit of ONLYVANS</p>
+			  
+			   <strong>Advent Pro</strong>
+                  <p>Chosen for its clarity and readability. Advent Pro gives a more approachable look to the body text and subtitles. It is not a very simple font and with it's personality, ensures that the content is easy to read while still maintaining a strong connection to the brand’s values and willingness to stand-out.</p>
+			  
+			 <h4 id="production-4" class="mt-2">User interface patterns</h4>
+			   <p>Chosen for its clarity and readability. Advent Pro gives a more approachable look to the body text and subtitles. It is not a very simple font and with it's personality, ensures that the content is easy to read while still maintaining a strong connection to the brand’s values and willingness to stand-out.</p>
+			  
             <li>User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
             <li>The structure of the <strong>navigation and content</strong> (e.g. how content units are distributed across pages)</li>
             <li>All these elements must be justified by referring to the theory <strong>and/or vocabulary</strong> of design</li>
@@ -177,14 +228,14 @@
               </ul>
             </li>
           </ul>
-          <h4 id="production-2" class="mt-2">Credits</h4>
+          <h4 id="production-5" class="mt-2">Credits</h4>
           <p>Please provide links and/or credits for third-party elements including:</p>
           <ul>
             <li>HTML <strong>templates</strong> if these are different from this one (<a href="https://github.com/buas-media-interactive/prj4-group-template" target="_blank">buas-media-interactive/prj4-group-template</a>)</li>
             <li>The source code for <strong>UX patterns</strong> other than the ones provided by the “Bootstrap” library (see <a href="https://getbootstrap.com/docs/5.2/" target="_blank">getbootstrap.com/docs</a> for a list of such patterns)</li>
             <li><strong>Images</strong> that were not produced by students themselves, including when crediting is not mandatory (in other words, we ask you to credit Unsplash images)</li>
           </ul>
-          <h4 id="production-3" class="mt-2">Testing Report</h4>
+          <h4 id="production-6" class="mt-2">Testing Report</h4>
           <p>Please write about&hellip;</p>
           <ul>
             <li>Your testing <strong>goals</strong> &ndash; in other words, what you are trying to learn about your website?</li>
